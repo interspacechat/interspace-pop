@@ -13,7 +13,7 @@
 
       html {
         cursor: default;
-        background: #283447;
+        background: #252525;
         padding: 20px;
         width: 250px;
         display: flex;
@@ -30,7 +30,7 @@
       h1 {
         text-align: center;
         font-size: 24px;
-        color: #ff991f;
+        color: #9ddcf9;
         margin-bottom: 20px;
         font-weight: 200;
       }
@@ -220,16 +220,20 @@
         display: block;
         width: 100%;
         margin: 20px 0 0 0;
-        background: #41d873;
-        color: white;
-        border: 0;
+        border-width: 2px;
+        border-style: dotted;
+        border-color: #41d873;
+        border-radius: 0.5rem;
+        background: none;
+        color: #41d873;
         padding: 10px;
         font-size: 1rem;
       }
 
       html > body.in-conference form input[type="submit"],
       form button {
-        background: #bf2117;
+        border-color: #bf2117;
+        color: #bf2117;
         width: 50%;
         float: left;
       }
@@ -240,7 +244,8 @@
 
       html > body.in-conference #show {
         display: block;
-        background: #4c9aff;
+        border-color: #4c9aff;
+        color: #4c9aff;
       }
 
       form input[type="submit"],
@@ -249,10 +254,17 @@
       input[list] {
         cursor: pointer;
       }
+
+      .credit {
+        font-size: 0.5rem;
+        text-align: center;
+        margin-top: 1rem;
+      }
+
     </style>
   </head>
   <body>
-    <h1>Pop-out Jitsi Meet</h1>
+    <h1>Interspace POPOUT</h1>
 
     <form spellcheck="false">
       <div class="input-row">
@@ -280,14 +292,13 @@
         </div>
       </div>
       <datalist id="recent_rooms_list"></datalist>
-      <p>
-        People may accidentally enter your room if the room name is common or
-        easy to guess.
-      </p>
       <a href="#">Copy invite link</a>
-      <button id="show" value="Show">Open</button>
+      <button id="show" value="Show" class="enterbutton">Open</button>
       <input type="submit" id="submit" />
     </form>
+    <p class="credit">
+      💖 Forked from Jitsi PopOut 💖
+  </p>
     <script src="browser_action.js"></script>
   </body>
 </html>
