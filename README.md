@@ -1,4 +1,4 @@
-Based on jitsi-pop, customized for interspace
+Based on jitsi-pop, customized for interspace.chat
 
 # Pop-out Jitsi Meet <img alt="Logo" src="./extension/icons/icon48.png" height="24px" />
 [Chrome extension](https://chrome.google.com/webstore/detail/pop-out-jitsi-meet/boklbbjieahngbnhdmlhldjjibdnnbcn) to open [Jitsi Meet](https://jitsi.org/) videos in pop-out windows. Useful if you want to arrange your video conference across multiple monitors, or if you want to grab a clean feed of the videos with e.g. [OBS Studio](https://obsproject.com/).
