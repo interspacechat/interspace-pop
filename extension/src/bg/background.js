@@ -1,8 +1,6 @@
 window.servers = [
   // "beta.meet.jit.si",
   'meet.jit.si',
-  '8x8.vc',
-  'jitsi.riot.im',
   'breakout.interspace.chat',
   'portal.interspace.chat'
 ]

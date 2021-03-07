@@ -1,6 +1,6 @@
 {
   "name": "Pop-out Interspace.chat",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "manifest_version": 2,
   "description": "Open the interspace in a galactic new way.",
   "icons": {
@@ -41,7 +41,9 @@
     "matches": [
       "https://jip-hop.github.io/jitsi-pop/*",
       "https://jitsipop.debeer.it/*",
-      "https://jitsipop.tk/*"
+      "https://jitsipop.tk/*",
+      "https://breakout.interspace.chat/*",
+      "https://portal.interspace.chat/*"
     ]
   }
 }
