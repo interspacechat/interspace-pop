@@ -26,6 +26,7 @@
     {
       "matches": [
         "https://breakout.interspace.chat/*",
+        "https://portal.interspace.chat/*",
         "https://meet.jit.si/*",
         "https://8x8.vc/*",
         "https://jitsi.riot.im/*"

@@ -3,7 +3,8 @@ window.servers = [
   'meet.jit.si',
   '8x8.vc',
   'jitsi.riot.im',
-  'breakout.interspace.chat'
+  'breakout.interspace.chat',
+  'portal.interspace.chat'
 ]
 
 import { options } from './jitsiConfig.js'
